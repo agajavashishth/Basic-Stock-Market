@@ -1,0 +1,6 @@
+C:\Users\vashi\OneDrive - Carleton University\Carleton\Fall 2020\COMP 2406\website\server\ExpressApp1\obj\Debug\ExpressApp1.njsprojAssemblyReference.cache
+C:\Users\vashi\OneDrive - Carleton University\Carleton\Fall 2020\COMP 2406\website\server\ExpressApp1\obj\Debug\ExpressApp1.njsproj.CoreCompileInputs.cache
+C:\Users\vashi\OneDrive - Carleton University\Carleton\Fall 2020\COMP 2406\website\server\ExpressApp1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\vashi\Desktop\2406final\ExpressApp1\obj\Debug\ExpressApp1.njsproj.CoreCompileInputs.cache
+C:\Users\vashi\Desktop\2406final\ExpressApp1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\vashi\Desktop\2406final\ExpressApp1\obj\Debug\ExpressApp1.njsprojAssemblyReference.cache

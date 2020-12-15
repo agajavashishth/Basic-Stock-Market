@@ -1,0 +1,85 @@
+doctype html
+html(lang='en-US')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    title= title
+    style
+        include ../public/stylesheets/main.css
+    //link(href='/public/stylesheets/main.css' rel='stylesheet' type='text/css')
+    // The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.
+    script.
+      var __adobewebfontsappname__="dreamweaver"
+    script(src='http://use.edgefonts.net/source-sans-pro:n2:default.js' type='text/javascript')
+    // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  body
+    // Main Container
+    .container
+      // Navigation
+      header
+        a(href='')
+          h4.logo Trade-Pro
+        nav
+          ul
+            li
+              a(href='/') HOME
+            li
+              a(href='/trade') TRADE
+            li
+              a(href='/contact') CONTACT
+            li
+              a(href='localhost:3000/') CONSOLE
+      // Hero Section
+      section#hero.hero
+        h2.hero_header
+          | TRADING 
+          span.light MADE EASY
+        p.tagline
+          u TRADE NOW
+      // About Section
+      section#about.about
+        h2.hidden About
+        p.text_column
+          | The crowded and often frenzied trading floors that were once an integral part of capital markets in the last century are now gone; they've been replaced, for the most part, by machines that make decisions in fractions of a second. In the U.S., 80% of all stock trades are reportedly machine-driven; however, this near-total dependence on machines can open the door to new risks and errors.
+        p.text_column
+          | It's important to understand the key differences between algo trading and AI trading. In algo trading, algorithms are based on predetermined data and relationships. In other words, a known set of conditions (i.e., data points) triggers specific actions, like buying, selling, shorting and so on. With AI trading, computers can analyze huge amounts of data and determine which conditions should trigger certain actions, with no human assistance.
+        p.text_column
+          | In this new era of AI adoption, the time has now come to consider how humans can be reintroduced into the trading process to act as safety valves. We at Trade-Pro, strive to deliver the best trading experience on the web. We employ cutting-edge algorithms and systems design to provide a satisfying and real time trading experience. Sign Up now!
+      // Stats Gallery Section
+      .gallery
+        .thumbnail
+          h1.stats $1.7 bn
+          h4 Daily Volume
+        .thumbnail
+          h1.stats 14000+
+          h4 Transactions per second
+        .thumbnail
+          h1.stats 60k+
+          h4 Daily Users
+        .thumbnail
+          h1.stats No. 9
+          h4 Hong Kong Index
+      // Parallax Section
+      section.banner
+        h2.parallax State of the Art Infrastructure
+        p.parallax_description
+        |We spend billions to ensure uninterrupted service, real-time speed and customer satisfaction. Our R&D Departments conducts relevant research to optimise our systems and maximise profitability.
+        p.parallax_description
+        p.parallax_description
+      // More Info Section
+      footer
+      // Footer Section
+      section#contact.footer_banner
+        h2.hidden Footer Banner Section 
+        p.hero_header FOR THE LATEST NEWS & UPDATES
+        .button subscribe
+      // Copyrights Section
+      .copyright
+        |2020:
+        strong Trade-Pro
+    // Main Container Ends
