@@ -1,4 +1,4 @@
-# Basic-Stock-Market
+# Trade-Pro
 MERN Stack: Stock Trading Web App
 
 
